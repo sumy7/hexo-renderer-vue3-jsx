@@ -1,0 +1,27 @@
+{
+  "name": "hexo-renderer-vue3-jsx",
+  "version": "0.1.0",
+  "description": "Vue3 JSX SSR renderer for Hexo.",
+  "main": "index.js",
+  "author": "sumy7 <sumyggsun@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/register": "^7.13.16",
+    "@vue/babel-plugin-jsx": "^1.0.5",
+    "@vue/server-renderer": "^3.0.11",
+    "rollup": "^2.45.2",
+    "vite": "^2.2.1",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.24.0",
+    "hexo-fs": "^3.1.0",
+    "mocha": "^8.3.2"
+  }
+}
